@@ -241,7 +241,7 @@ async function deleteMahasiswa(id, nama) {
             showAlert(result.message, 'success');
             loadMahasiswa(); // Refresh data otomatis
         } else {
-            showAlert(result.message || 'Gagal menghapus data', 'danger');
+            showAlert(result.message || 'Gagal Menghapus Data', 'danger');
         }
     } catch (error) {
         showAlert(`Gagal menghapus: ${error.message}`, 'danger');
